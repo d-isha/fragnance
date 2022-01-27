@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+}
+
+#nav h2{
+    position: absolute;
+    top: 4%;
+    left: 12%;
+    color: rgba(51, 51, 51, 0.842);
+    font-family: 'Playfair Display', serif;
+}
+
+#pr{
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    color: #333;
+    font-weight: 530;
+}
+
+#br{
+    position: absolute;
+    top: 5%;
+    left: 43%;
+    color: #333;
+    font-weight: 530;
+}
+
+#shr{
+    position: absolute;
+    top: 5%;
+    left: 51%;
+    color: #333;
+    font-weight: 530;
+}
+
+#or{
+    position: absolute;
+    top: 5%;
+    left: 58%;
+    color: #333;
+    font-weight: 530;
+}
+
+#gr{
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    color: #333;
+    font-weight: 530;
+}
+
+#sear{
+    position: absolute;
+    top: 5%;
+    right: 11.5%;
+    width: 20px;
+    height: 18px;
+}
+
+#sr{
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    color: #333;
+    font-weight: 530;
+}
+
+#scart{
+    position: absolute;
+    top: 5%;
+    right: 4.5%;
+    width: 20px;
+    height: 18px;
+}
+
+#cr{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    color: #333;
+    font-weight: 530;
+}
+
+#line{
+    position: relative;
+    top: 10%;
+    border-top: 1.5px solid rgba(216, 215, 215, 0.623);
+    border-bottom: 1.5px solid rgba(216, 215, 215, 0.623);
+    width: 100%;
+    height: 50%;
+}
+
+#line h4{
+    position: absolute;
+    top: 28%;
+    left: 13%;
+    font-size: 15px;
+    font-weight: 550;
+    color: rgba(51, 51, 51, 0.883);
+    line-height: 18px;
+}
+
+#world{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 120px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+#frag{
+    position: absolute;
+    top: 35%;
+    left: 13%;
+    font-size: 120px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+#m1{
+    width: 180px;
+    height: 65px;
+    position: absolute;
+    top: 49%;
+    left: 45%;
+    border-radius: 40px;
+    background-image: url(m7.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+#img{
+    width: 200px;
+    height: 340px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    border-radius: 110px;
+    background-image: url(https://images.unsplash.com/photo-1566134549191-e480b6dc3c1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#arc{
+    position: absolute;
+    top: 61%;
+    left: 21.5%;
+    width: 170px;
+    height: 230px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+#gg{
+    position: absolute;
+    top: 63%;
+    left: 22.8%;
+    width: 130px;
+    height: 200px;
+    border-radius: 80px;
+    background-image: url(22.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+#vl{
+    position: absolute;
+    top: 69%;
+    left: 21.8%;
+    width: 3px;
+    height: 13.2%;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+#arc1{
+    position: absolute;
+    top: 61%;
+    left: 11.2%;
+    width: 170px;
+    height: 230px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+#mm{
+    position: absolute;
+    top: 63%;
+    left: 12.6%;
+    width: 130px;
+    height: 200px;
+    border-radius: 80px;
+    background-image: url(11.jfif);
+    background-position: center;
+    background-size: cover;
+}
+
+#circle{
+    display: flex;
+    /* position: absolute;
+    top: 89%;
+    left: 20.9%; */
+}
+
+#c1{
+    position: absolute;
+    top: 89%;
+    left: 20.4%;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(15, 15, 15);
+    border-radius: 50%;
+}
+
+#c2{
+    position: absolute;
+    top: 89%;
+    left: 21.6%;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(15, 15, 15);
+    border-radius: 50%;
+}
+
+#c3{
+    position: absolute;
+    top: 89%;
+    left: 22.8%;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(15, 15, 15);
+    border-radius: 50%;
+}
+
+#aa{
+    position: absolute;
+    top: 92%;
+    left: 12%;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    font-weight: 550;
+    color: #333;
+}
+
+#vr{
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    width: 1.5px;
+    height: 40%;
+    background-color: rgba(216, 215, 215, 0.856);
+}
+
+#sm{
+    position: absolute;
+    top: 63%;
+    left: 40%;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+#us{
+    position: absolute;
+    top: 69%;
+    left: 40%;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+#m33{
+    position: absolute;
+    top: 71%;
+    left: 58%;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    background-image: url(33.jfif);
+    background-position: bottom;
+    background-size: cover;
+}
+
+#sw{
+    position: absolute;
+    top: 69%;
+    right: 13%;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+}
+
+hr{
+    position: absolute;
+    top: 79%;
+    left: 40%;
+    width: 12%;
+    height: 3.5px;
+    background-color: black;
+}
+
+#f1{
+    position: absolute;
+    top: 69%;
+    right: 25%;
+    width: 250px;
+    height: 250px;
+}
+
+#p1{
+    position: absolute;
+    top: 90%;
+    right: 18%;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    font-weight: 550;
+    color: #333;
+}
+
+#f2{
+    position: absolute;
+    top: 76%;
+    left: 37%;
+    width: 130px;
+    height: 130px;
+}
+
+#p2{
+    position: absolute;
+    top: 91%;
+    left: 40%;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 19px;
+    font-weight: 550;
+    color: #333;
+}
